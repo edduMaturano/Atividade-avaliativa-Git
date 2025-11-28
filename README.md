@@ -60,6 +60,35 @@ $ ssh -T git@github.com
 Hi edduMaturano/Atividade-avaliativa-Git! You've successfully authenticated, but GitHub does not provide shell access.
 
 ### Victor Kendi Goya
+Usuario@DESKTOP-J3R75BE MINGW32 ~
+$ git config --global user.name "VictorGoya"
+
+Usuario@DESKTOP-J3R75BE MINGW32 ~
+$ git config --global user.email "victor.goya@edu.unifil.br"
+
+Usuario@DESKTOP-J3R75BE MINGW32 ~
+$ ssh-keygen -t rsa -b 4096 -C "victor.goya@edu.unifil.br"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/Usuario/.ssh/id_rsa):
+Enter passphrase for "/c/Users/Usuario/.ssh/id_rsa" (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/Usuario/.ssh/id_rsa
+Your public key has been saved in /c/Users/Usuario/.ssh/id_rsa.pub
+
+Usuario@DESKTOP-J3R75BE MINGW32 ~
+$ eval "$(ssh-agent -s)"
+Agent pid 871
+
+Usuario@DESKTOP-J3R75BE MINGW32 ~
+$ ssh-add ~/.ssh/id_rsa
+Identity added: /c/Users/Usuario/.ssh/id_rsa (victor.goya@edu.unifil.br)
+
+Usuario@DESKTOP-J3R75BE MINGW32 ~
+$ clip < ~/.ssh/id_rsa.pub
+
+Usuario@DESKTOP-J3R75BE MINGW32 ~
+$ ssh -T git@github.com
+Hi Swithical! You've successfully authenticated, but GitHub does not provide shell access.
 
 
 ## Observações
