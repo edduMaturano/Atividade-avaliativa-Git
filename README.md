@@ -22,6 +22,7 @@ Desenvolver colaborativamente um algoritmo em Portugol de "Calculadora Simples"
 - depois o comando git add
 - depois usei o git status para verificar se está correto
 - agora dei o git commit com a mensagem do commit
+- e depois dei o git push
 - Enqaunto eu fazia essas alterções eu ia montando o readme, colocando os comandos utilizados e essa lista que vc esta lendo :D
 
 ### Victor Kendi Goya
