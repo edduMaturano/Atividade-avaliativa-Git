@@ -25,9 +25,9 @@ Desenvolver colaborativamente um algoritmo em Portugol de "Calculadora Simples"
 - Enqaunto eu fazia essas alterções eu ia montando o readme, colocando os comandos utilizados e essa lista que vc esta lendo :D
 
 ### Victor Kendi Goya
-- Como Configurou o Git? não deixe exposto sua chave.
-- Fez `git pull` após o commit de Fulano.
-- Adicionou lógica de ... 
+- Criei um arquivo na main dentro da pasta Calculadora Simples chamada Calculadora.java
+- Criei uma nova branch chamada Subtracao_E_Divisao e fiz um pull request
+- Atualizando esta parte do README com as informações acima
 
 
 
