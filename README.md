@@ -67,7 +67,7 @@ eddua@samsung4 MINGW64 ~
 $ ssh -T git@github.com
 Hi edduMaturano/Atividade-avaliativa-Git! You've successfully authenticated, but GitHub does not provide shell access.
 
-## fazendo a Manipulação do arquivo (git clone, git add, git status, git commit)
+## fazendo a Manipulação do arquivo (git clone, git add, git status, git commit, git push)
 
 eddua@samsung4 MINGW64 ~/OneDrive/Área de Trabalho/atividade de git
 $ git clone git@github.com:edduMaturano/Atividade-avaliativa-Git.git
@@ -116,7 +116,17 @@ $ git commit -m "Crie a função subtração e a função divisão, alem de cria
  create mode 100644 out/production/Atividade-avaliativa-Git/Main.class
 
 eddua@samsung4 MINGW64 ~/OneDrive/Área de Trabalho/atividade de git/Atividade-avaliativa-Git (main)
-$
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1005 bytes | 335.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:edduMaturano/Atividade-avaliativa-Git.git
+   121fdfa..c618fc5  main -> main
+
 
 
 
