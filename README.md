@@ -18,11 +18,12 @@ Desenvolver colaborativamente um algoritmo em Portugol de "Calculadora Simples"
 - Agora fiz a pasta onde sera colocado o arquivo do para ser editado
 - Abri o git Bash na pasta para realizar o git clone
 - Depois de realizar o clone ja que estamos utilizando a lingagem java tive que abrir o clone pelo Intellij por isto não teve o comando "code ."
-- depois fiz minhas modificarçoes no codigo (minha parte que tinha combinado com o Victor)
-- depois o comando git add
+- depois fiz minhas modificarçoes no codigo (adicionei um menu basico, uma função de subtraçãom e uma função de divisão)
+- depois usei o comando git add
 - depois usei o git status para verificar se está correto
 - agora dei o git commit com a mensagem do commit
 - e depois dei o git push
+- todos estes passos que possui utilização de codigo os codigos utilizados estão a baixo em "Comandos de Edduardo Maturano"
 - Enqaunto eu fazia essas alterções eu ia montando o readme, colocando os comandos utilizados e essa lista que vc esta lendo :D
 
 ### Victor Kendi Goya
@@ -32,9 +33,9 @@ Desenvolver colaborativamente um algoritmo em Portugol de "Calculadora Simples"
 
 
 
-## Comandos utilizados
+
 Todos os comandos foram executados via terminal utilizando chave SSH:
-### Comandos de Edduardo MAturano
+### Comandos de Edduardo Maturano
 ## Criando chave ssh
 eddua@samsung4 MINGW64 ~
 $ ssh-keygen -t rsa -b 4096 -C "edu36232029@gmail.com"
