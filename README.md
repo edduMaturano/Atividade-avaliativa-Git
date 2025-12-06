@@ -26,6 +26,10 @@ Desenvolver colaborativamente um algoritmo em Portugol de "Calculadora Simples"
 - todos estes passos que possui utilização de codigo os codigos utilizados estão a baixo em "Comandos de Edduardo Maturano"
 - Enqaunto eu fazia essas alterções eu ia montando o readme, colocando os comandos utilizados e essa lista que vc esta lendo :D
 
+### Problemas que tive
+-tive alguns problemas na hora de fazer o push, um deles foi o que eu esta mudando o Readme ao mesmo tempo que fazia o codigo, e na hora de dar o push falava que meu codigo estava alguns commits atrasados
+-E tambem algumas vezes que eu dava o push o push mandava arquivos em brancos, não sei o que exatamente esta causando este erro, então eu apenas apaguei os arquivos extras que não eram pra existir
+
 ### Victor Kendi Goya
 - Criei um arquivo na main dentro da pasta Calculadora Simples chamada Calculadora.java
 - Criei uma nova branch chamada Subtracao_E_Divisao e fiz um pull request
